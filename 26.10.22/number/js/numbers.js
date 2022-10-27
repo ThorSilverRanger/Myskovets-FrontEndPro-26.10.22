@@ -1,4 +1,6 @@
-const str1 = 12345;
-const str2 = `Output: ${str1[0], + str1[1], + str1[2], + str1[3], + str1[4]}`;
 
-console.log(str2)
+const number = 12345;
+const numberString = String(number)
+
+console.log(`Output: ${numberString[0]} ${numberString[1]} ${numberString[2]} ${numberString[3]} ${numberString[4]}`)
+alert(`Output: ${numberString[0]} ${numberString[1]} ${numberString[2]} ${numberString[3]} ${numberString[4]}`)
