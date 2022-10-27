@@ -5,4 +5,6 @@ button.onclick = function() {
   var name2 = prompt('Second part');
   var name3 = prompt('Thirt part');
   alert('We had: ' + name + name2 + name3);
+
+  console.log('We had: ' + name + name2 + name3);
 }
