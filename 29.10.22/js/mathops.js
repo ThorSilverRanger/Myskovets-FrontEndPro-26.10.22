@@ -1,9 +1,12 @@
 const numberFirst = prompt('Input first number');
 const numberSecond = prompt('Input second number');
 
-console.log(numberFirst + numberSecond)
-console.log(numberFirst - numberSecond)
-console.log(numberFirst * numberSecond)
-console.log(numberFirst / numberSecond)
-console.log(numberFirst ** numberSecond)
-console.log(numberFirst % numberSecond)
+num1 = Number(numberFirst)
+num2 = Number(numberSecond)
+
+console.log(num1 + num2)
+console.log(num1 - num2)
+console.log(num1 * num2)
+console.log(num1 / num2)
+console.log(num1 ** num2)
+console.log(num1 % num2)
