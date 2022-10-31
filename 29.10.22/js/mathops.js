@@ -1,4 +1,4 @@
-const numberFirst = prompt('Input first number');
+const numberFirst = Number(prompt('Input first number'));
 const numberSecond = prompt('Input second number');
 
 num1 = Number(numberFirst)
